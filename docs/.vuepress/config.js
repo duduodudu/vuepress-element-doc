@@ -1,9 +1,9 @@
 module.exports = {
   theme: '',
-  title: 'VuePress + Element',
+  title: '组件库文档',
   description: 'VuePress搭建Element的组件库文档教程示例代码',
   base: '/',
-  port: '8080',
+  port: '8089',
   themeConfig: {
     nav: [
       {
@@ -19,7 +19,7 @@ module.exports = {
       '/comps/': [
         '/comps/',
         '/comps/select.md'
-      ]
+      ],
     }
   },
   head: [],
