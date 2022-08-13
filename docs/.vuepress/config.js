@@ -22,7 +22,13 @@ module.exports = {
       ],
     }
   },
-  head: [],
-  plugins: ['demo-container'],
+  head: [
+    // 引入自定义js
+    ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
+  ],
+  plugins: [
+    'demo-container',
+    'fulltext-search'
+  ],
   markdown: {}
 }
